@@ -24,7 +24,7 @@ public class Arabic extends Calculator {
             }
             System.out.println(total);
         } else {
-            System.out.println("Числа могут быть только от 1 до 10!");
+            throw new IllegalArgumentException("Числа могут быть только от 1 до 10!");
 
         }
 
