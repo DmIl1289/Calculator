@@ -26,7 +26,6 @@ public class Calculator {
                     } else if (i == inputNumbers.length - 1) {
                                 int d = Roman.romanCalculator(input);
                                 Roman.romanToArabic(d);
-                                break;
                     }
                 }
         }
